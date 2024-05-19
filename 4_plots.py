@@ -22,10 +22,10 @@ def tanh(x):
     return x_out
  # sigmoid function
 def sig(x):
- return 1/(1 + np.exp(-x))
+    return 1/(1 + np.exp(-x))
  # shifted softplus function
 def ssp(x):    
-   return math.log(0.5*math.exp(x)+0.5)
+    return math.log(0.5*math.exp(x)+0.5)
  
 # define a series of inputs
 alpha=10
